@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let arr=prompt("Enter the length of array");
+ let arrinint=parseInt(arr);
+var input=[];
+ var inputinnum=[];
+for(let i=0;i<arrinint;i++)
+{
+input[i]=prompt("Enter the numbers");
+}
+
+for(let j=0;j<arrinint;j++)
+ {
+ inputinnum[j]=parseInt(input[j]);
+ }
+
+let avg=(inputinnum)=>
+{
+let sum=0;
+ for(let k=0;k<arrinint;k++)
+{
+sum=sum+inputinnum[k];
+}
+
+alert(sum);
+var avgofnum=sum/arrinint;
+ alert(avgofnum);
+}
+console.log(avg(inputinnum));
+</script>
+    
+</body>
+</html>
